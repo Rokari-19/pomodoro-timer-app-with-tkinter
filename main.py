@@ -13,7 +13,7 @@ reps = 0
 reset = "None"
 mark = ""
 ## change Godgive computer to the name of your administrator or user name, or if using pycharm, simply use the filename without the directory
-filename = "tomato.png"
+filename = "images/tomato.png"
 # ---------------------------- TIMER RESET ------------------------------- # 
 
 def resettimer():
@@ -71,7 +71,7 @@ def count_down(count):
 window = Tk()
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=BLUEBLACK)
-icon = "icon.png"
+icon = "images/icon.png"
 appicon = PhotoImage(file=icon)
 window.iconphoto(False, appicon)
 
